@@ -3,10 +3,10 @@
 > A modern, SEO-optimized Next.js website for Singapore's premier creative art and event decoration studio. Features real-time booking, admin dashboard, product management, and comprehensive SEO implementation.
 
 
-<img width="1512" height="766" alt="Screenshot 2026-06-19 at 8 29 21 PM" src="https://github.com/user-attachments/assets/88a23bda-7773-49fc-8092-8cb05ee9f569" />
-<img width="1147" height="763" alt="Screenshot 2026-06-19 at 8 30 04 PM" src="https://github.com/user-attachments/assets/a4b32bbf-f7a5-47cb-bc46-19f8803cfc0d" />
-<img width="1294" height="760" alt="Screenshot 2026-06-19 at 8 30 33 PM" src="https://github.com/user-attachments/assets/cada4002-dff2-40b3-afd6-eed479c5282b" />
-<img width="1365" height="761" alt="Screenshot 2026-06-19 at 8 31 21 PM" src="https://github.com/user-attachments/assets/d7ac1247-bc7f-4674-b8a9-9a7b49ce7ad5" />
+<img width="756" alt="Screenshot 2026-06-19 at 8 29 21 PM" src="https://github.com/user-attachments/assets/88a23bda-7773-49fc-8092-8cb05ee9f569" />
+<img width="756" alt="Screenshot 2026-06-19 at 8 30 04 PM" src="https://github.com/user-attachments/assets/a4b32bbf-f7a5-47cb-bc46-19f8803cfc0d" />
+<img width="756" alt="Screenshot 2026-06-19 at 8 30 33 PM" src="https://github.com/user-attachments/assets/cada4002-dff2-40b3-afd6-eed479c5282b" />
+<img width="756" alt="Screenshot 2026-06-19 at 8 31 21 PM" src="https://github.com/user-attachments/assets/d7ac1247-bc7f-4674-b8a9-9a7b49ce7ad5" />
 
 
 ## 🎨 Project Overview
