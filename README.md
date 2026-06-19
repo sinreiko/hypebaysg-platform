@@ -68,128 +68,17 @@ The website combines **beautiful design**, **real-time functionality**, and **en
 | **Authentication** | Session storage (client-side admin key) |
 | **Deployment** | Vercel (recommended) |
 
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── layout/          # Navbar, Footer, Layout wrapper
-│   ├── home/            # Homepage sections
-│   ├── services/        # Service page components
-│   ├── booking/         # Booking form & calendar
-│   ├── portfolio/       # Gallery & filtering
-│   ├── admin/           # Admin dashboard components
-│   ├── seo/             # Schema markup components
-│   └── ui/              # Reusable primitives (Button, SectionTag, etc)
-├── pages/
-│   ├── index.jsx        # Homepage
-│   ├── services/        # 10 service pages + index
-│   ├── booking.jsx      # Booking page
-│   ├── portfolio.jsx    # Portfolio gallery
-│   ├── blog/            # Blog index & individual posts
-│   ├── shop/            # Product shop
-│   ├── admin/           # Protected admin routes
-│   ├── api/             # Next.js API endpoints
-│   ├── sitemap.xml.js   # Dynamic XML sitemap
-│   └── 404.jsx          # 404 page
-├── lib/
-│   ├── blogStore.js     # Blog CRUD & Supabase
-│   ├── shopStore.js     # Product CRUD & Supabase
-│   ├── pricingStore.js  # Pricing management
-│   ├── seoMeta.js       # Meta tag utilities
-│   └── quote.js         # Quote generation
-├── hooks/
-│   ├── useAdminKey.js   # Admin authentication
-│   ├── useBookingForm.js # Form state management
-│   └── useCalendar.js   # Calendar logic
-├── data/
-│   ├── services.js      # Service definitions
-│   ├── packages.js      # Service packages
-│   ├── portfolio.js     # Portfolio data
-│   ├── testimonials.js  # Customer testimonials
-│   ├── blog-posts.json  # Blog content
-│   └── pricing.json     # Pricing data
-└── styles/
-    └── globals.css      # Global styles & utilities
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+
-- npm or yarn
-- Supabase account (free tier works)
-- Google Calendar & Google Places API keys
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/sinreiko/hypebaysg.git
-cd hypebaysg
-```
-
-2. **Install dependencies**
-```bash
-npm install
-```
-
-3. **Set up environment variables**
-```bash
-cp .env.example .env.local
-```
-
-Fill in `.env.local` with your credentials:
-```env
-# Supabase
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-
-# Google APIs
-GOOGLE_CALENDAR_ID=your-calendar@gmail.com
-GOOGLE_API_KEY=your-google-api-key
-
-# Admin Authentication
-ADMIN_PRICING_KEY=your-secure-admin-key
-
-# Web3Forms
-NEXT_PUBLIC_WEB3FORMS_KEY=your-web3forms-key
-```
-
-4. **Run development server**
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-5. **Access admin dashboard**
-- Navigate to `/admin/shop` or `/admin/pricing`
-- Enter your `ADMIN_PRICING_KEY` when prompted
-
-## 📝 Available Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Production build
-npm run start        # Run production build
-npm run lint         # Run ESLint
-```
-
 ## 🔐 Admin Dashboard
 
 ### Shop Management
-- **URL:** `/admin/shop`
 - **Features:** CRUD products, manage images, preview before publish
 - **Auth:** Session-based with admin key
 
 ### Pricing Management
-- **URL:** `/admin/pricing`
 - **Features:** Update service prices in real-time
 - **Storage:** Synced with Supabase automatically
 
 ### Blog Editor
-- **URL:** `/admin/blog`
 - **Features:** Create posts, upload cover images, manage content
 - **Format:** Markdown with rich text support
 
@@ -222,19 +111,6 @@ The website includes comprehensive SEO optimization:
 - `shop_products` — Product catalog with pricing
 - `site_settings` — Global settings (pricing, hours, etc)
 - `bookings` — Customer bookings (optional)
-
-## 🌐 Deployment
-
-### Recommended: Vercel
-
-1. Push code to GitHub
-2. Import project in Vercel
-3. Add environment variables
-4. Deploy with one click
-
-```bash
-vercel deploy
-```
 
 ### Other Platforms
 - **Netlify** — Support for Next.js with serverless functions
@@ -285,34 +161,6 @@ vercel deploy
 - Schema markup for SEO
 - Related posts suggestions
 
-## 🚨 Environment Variables
-
-Required environment variables:
-
-```env
-# Database
-SUPABASE_URL
-SUPABASE_SERVICE_ROLE_KEY
-DATABASE_URL
-
-# Google APIs
-GOOGLE_CALENDAR_ID
-GOOGLE_API_KEY
-
-# Admin
-ADMIN_PRICING_KEY
-
-# Forms
-NEXT_PUBLIC_WEB3FORMS_KEY
-```
-
-## 📖 Documentation
-
-- **SEO Guide:** See `SEO_IMPROVEMENT_GUIDE.md`
-- **Implementation Examples:** See `SEO_IMPLEMENTATION_EXAMPLE.md`
-- **SEO Checklist:** See `SEO_CHECKLIST.md`
-- **Blog Migration:** See `BLOG_SUPABASE_MIGRATION.md`
-
 ## 🔄 Workflow
 
 1. **Content Updates** → Admin dashboard edits
@@ -320,23 +168,6 @@ NEXT_PUBLIC_WEB3FORMS_KEY
 3. **Auto Regeneration** → Pages rebuild with new content
 4. **SEO Updates** → Meta tags & schema update automatically
 5. **Sitemap Refresh** → `/sitemap.xml` generates fresh URLs
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Code Style
-- Use ESLint configuration included
-- Follow Tailwind CSS conventions
-- Keep components modular and reusable
-- Add comments for complex logic
-
 ## 📄 License
 
 This project is proprietary. All rights reserved.
