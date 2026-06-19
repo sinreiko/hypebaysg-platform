@@ -4,10 +4,12 @@
 
 
 <img width="350" alt="Screenshot 2026-06-19 at 8 29 21 PM" src="https://github.com/user-attachments/assets/88a23bda-7773-49fc-8092-8cb05ee9f569" />
+<img width="350" alt="Screenshot 2026-06-19 at 8 31 21 PM" src="https://github.com/user-attachments/assets/d7ac1247-bc7f-4674-b8a9-9a7b49ce7ad5" />
 <img width="350" alt="Screenshot 2026-06-19 at 8 30 33 PM" src="https://github.com/user-attachments/assets/cada4002-dff2-40b3-afd6-eed479c5282b" />
 <img width="350" alt="Screenshot 2026-06-19 at 8 30 04 PM" src="https://github.com/user-attachments/assets/a4b32bbf-f7a5-47cb-bc46-19f8803cfc0d" />
-<img width="350" alt="Screenshot 2026-06-19 at 8 31 21 PM" src="https://github.com/user-attachments/assets/d7ac1247-bc7f-4674-b8a9-9a7b49ce7ad5" />
 
+<br/>
+<br/>
 Live at https://hypebaysg.com
 
 ## 🎨 Project Overview
